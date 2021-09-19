@@ -22,7 +22,7 @@ export const Control = (props) => {
     }
 
     return (
-        <div className={classes.Control}>
+        <div style={{display: props.filter.length > 0 ? 'flex' : 'none'}} className={classes.Control}>
             <div className={classes.list}>
             {filteredArr}
             </div>
