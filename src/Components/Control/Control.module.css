@@ -1,0 +1,67 @@
+.Control {
+    display: flex;
+    background-color: #fff;
+    position: relative;
+    bottom: 50px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 30px;
+    border-radius: 20px;
+}
+.Control .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Control section {
+    display: flex;
+    background-color: hsl(180, 31%, 95%);
+    color: hsl(180, 29%, 50%);
+    border-radius: 5px;
+    margin: 0 15px 10px 0;
+}
+
+.Control p {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 700px;
+    margin: 0;
+}
+
+.Control button {
+    background-color: hsl(180, 29%, 50%);
+    border: 1px solid hsl(180, 29%, 50%);
+    border-radius: 0 5px 5px 0;
+
+}
+
+.Control img {
+    width: 10px;
+    height: 10px;
+}
+
+.Control button.clear {
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    color: darkgray;
+}
+
+
+@media (min-width: 900px) {
+
+    .Control section {
+        height: 25px;
+    }
+
+    .Control button {
+        width: 30px;
+        padding: 0;
+    }
+
+    .Control img {
+        margin: 0;
+    }
+
+
+}
